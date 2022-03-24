@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Revisão de HTML, CSS e JavaScript</h1>
+
+        <hr>
+        <h2>HTML</h2>
+        <ul>
+            <li>Destaque de texto</li>
+            <li>Listas</li>
+            <li>Imagens</li>
+            <li>Links</li>
+            <li>Tabelas</li>
+            <li>Formulário</li>
+        </ul>
+
+        <p>
+            <strong>Texto destacado</strong>
+            <em>Texto em italico</em>
+            <mark>Texto marcado</mark>
+        </p>
+
+        <h3>Listas:</h3>
+
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+
+        <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+
+        <h3>Imagens</h3>
+
+        <img width="400px" src="img/foto1.jpg" alt="img1" srcset="">
+        <img width="400px" src="img/foto2.jpg" alt="img2" srcset="">
+        <img width="400px" src="img/foto3.jpg" alt="img3" srcset="">
+
+
+        <div class="m-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="card d-flex flex-column justify-content-center align-items-center p-5" style="width: 18rem;">
+                <h3>Links</h3>
+                <ul class="list-group text-center" style="list-style-type:none">
+                    <li class="list-group-item"><a class="text-secondary text-decoration-none" href="https://uol.com.br"
+                            target="blank">UOL</a>
+                    </li>
+                    <li class="list-group-item"><a class="text-secondary text-decoration-none"
+                            href="https://sp.senac.br" target="blank"><img width="50"
+                                src="https://sp.senac.br/o/senac-theme/images/logo_senac_default.png" alt="img1"
+                                srcset=""></a>
+                    </li>
+                    <li class="list-group-item"><a class="text-secondary text-decoration-none" href="img/foto1.jpg"
+                            download>Download da foto</a>
+                    </li>
+                    <li class="list-group-item"><a class="text-secondary text-decoration-none" href="img/foto1.jpg"
+                            target="blank">Abrir a foto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="m-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="card d-flex flex-column justify-content-center align-items-center p-5" style="width: 30rem;">
+                <div class="w-50">
+                    <h3>Tabelas</h3>
+                    <table class="table" border="1">
+                        <thead>
+                            <tr>
+                                <td>Nome</td>
+                                <td>Nota</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Marcio</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>Rogério</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>Felipe</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-5 d-flex flex-column justify-content-center align-items-center">
+            <div class="card d-flex flex-column justify-content-center align-items-center p-5" style="width: 30rem;">
+                <h3>Formulários</h3>
+                <form class="w-50" action="">
+                    <div class="mb-3">
+                        <label class="form-label" for="user">Usuário</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="password">password</label>
+                        <input class="form-control" type="password">
+                    </div>
+                    <button class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
